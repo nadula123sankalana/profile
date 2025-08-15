@@ -1325,49 +1325,161 @@ export default function Home() {
                     }}></div>
                   </div>
                   
+                  {/* Creative Background Grid */}
+                  <div className="absolute inset-0 opacity-10">
+                    <div className="absolute inset-0" style={{
+                      backgroundImage: `linear-gradient(45deg, #3b82f6 1px, transparent 1px), linear-gradient(-45deg, #8b5cf6 1px, transparent 1px)`,
+                      backgroundSize: '20px 20px'
+                    }}></div>
+                  </div>
+                  
                   {/* Enhanced Background Animation */}
                   <div className="absolute inset-0 bg-gradient-to-r from-[#3b82f6]/5 via-[#8b5cf6]/5 to-[#f59e0b]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
                   
-                  {/* Technical Globe Background Elements */}
+                  {/* Creative Technical Globe Background Elements */}
                   <div className="absolute inset-0 overflow-hidden">
-                    {/* Globe Meridians and Parallels */}
-                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 border-2 border-[#3b82f6] rounded-full"></div>
-                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 border-2 border-[#3b82f6] rounded-full"></div>
-                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 border-2 border-[#3b82f6] rounded-full"></div>
+                    {/* Enhanced Globe Meridians and Parallels with Creative Effects */}
+                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 border-2 border-[#3b82f6] rounded-full animate-pulse" style={{animationDelay: '0s'}}></div>
+                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 border-2 border-[#3b82f6] rounded-full animate-pulse" style={{animationDelay: '0.3s'}}></div>
+                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 border-2 border-[#3b82f6] rounded-full animate-pulse" style={{animationDelay: '0.6s'}}></div>
                     
-                    {/* Vertical Meridian Lines */}
-                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1 h-96 bg-[#3b82f6]"></div>
-                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1 h-80 bg-[#3b82f6]"></div>
+                    {/* Creative Vertical Meridian Lines with Glow */}
+                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1 h-96 bg-gradient-to-b from-[#3b82f6] via-[#8b5cf6] to-[#3b82f6] animate-pulse" style={{animationDelay: '0.2s'}}></div>
+                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1 h-80 bg-gradient-to-b from-[#8b5cf6] via-[#3b82f6] to-[#8b5cf6] animate-pulse" style={{animationDelay: '0.5s'}}></div>
                     
-                    {/* Horizontal Parallel Lines */}
-                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-1 bg-[#3b82f6]"></div>
-                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-1 bg-[#3b82f6]"></div>
+                    {/* Creative Horizontal Parallel Lines with Glow */}
+                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-1 bg-gradient-to-r from-[#3b82f6] via-[#8b5cf6] to-[#3b82f6] animate-pulse" style={{animationDelay: '0.4s'}}></div>
+                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-1 bg-gradient-to-r from-[#8b5cf6] via-[#3b82f6] to-[#8b5cf6] animate-pulse" style={{animationDelay: '0.7s'}}></div>
                     
-                    {/* Diagonal Grid Lines */}
-                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 border-2 border-[#3b82f6] rounded-full" style={{transform: 'translate(-50%, -50%) rotate(45deg)'}}></div>
-                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 border-2 border-[#3b82f6] rounded-full" style={{transform: 'translate(-50%, -50%) rotate(-45deg)'}}></div>
+                    {/* Creative Diagonal Grid Lines with Rotation */}
+                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 border-2 border-[#3b82f6] rounded-full animate-spin" style={{animationDuration: '25s'}}></div>
+                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 border-2 border-[#8b5cf6] rounded-full animate-spin" style={{animationDuration: '30s', animationDirection: 'reverse'}}></div>
                     
-                    {/* Floating Data Particles */}
-                    <div className="absolute top-10 left-10 w-1.5 h-1.5 bg-[#3b82f6] rounded-full animate-pulse" style={{animationDelay: '0s'}}></div>
-                    <div className="absolute top-16 right-16 w-2 h-2 bg-[#8b5cf6] rounded-full animate-pulse" style={{animationDelay: '0.3s'}}></div>
-                    <div className="absolute top-24 left-1/3 w-1.5 h-1.5 bg-[#f59e0b] rounded-full animate-pulse" style={{animationDelay: '0.6s'}}></div>
-                    <div className="absolute top-32 right-1/4 w-2 h-2 bg-[#10b981] rounded-full animate-pulse" style={{animationDelay: '0.9s'}}></div>
+                    {/* Creative Floating Data Particles with Enhanced Effects */}
+                    <div className="absolute top-10 left-10 w-2 h-2 bg-gradient-to-br from-[#3b82f6] to-[#8b5cf6] rounded-full animate-bounce shadow-lg shadow-[#3b82f6]/50" style={{animationDelay: '0s'}}>
+                      <div className="absolute inset-0 bg-white/30 rounded-full animate-ping"></div>
+                    </div>
+                    <div className="absolute top-16 right-16 w-2.5 h-2.5 bg-gradient-to-br from-[#8b5cf6] to-[#f59e0b] rounded-full animate-bounce shadow-lg shadow-[#8b5cf6]/50" style={{animationDelay: '0.3s'}}>
+                      <div className="absolute inset-0 bg-white/30 rounded-full animate-ping"></div>
+                    </div>
+                    <div className="absolute top-24 left-1/3 w-2 h-2 bg-gradient-to-br from-[#f59e0b] to-[#10b981] rounded-full animate-bounce shadow-lg shadow-[#8b5cf6]/50" style={{animationDelay: '0.6s'}}>
+                      <div className="absolute inset-0 bg-white/30 rounded-full animate-ping"></div>
+                    </div>
+                    <div className="absolute top-32 right-1/4 w-2.5 h-2.5 bg-gradient-to-br from-[#10b981] to-[#3b82f6] rounded-full animate-bounce shadow-lg shadow-[#10b981]/50" style={{animationDelay: '0.9s'}}>
+                      <div className="absolute inset-0 bg-white/30 rounded-full animate-ping"></div>
+                    </div>
                     
-                    {/* Animated Connection Lines */}
-                    <div className="absolute top-20 left-1/4 w-10 h-px bg-gradient-to-r from-transparent via-[#3b82f6]/30 to-transparent transform rotate-45 animate-pulse" style={{animationDelay: '0.2s'}}></div>
-                    <div className="absolute top-24 right-1/3 w-8 h-px bg-gradient-to-r from-transparent via-[#8b5cf6]/30 to-transparent transform -rotate-45 animate-pulse" style={{animationDelay: '0.5s'}}></div>
-                    <div className="absolute top-32 left-1/2 w-12 h-px bg-gradient-to-r from-transparent via-[#f59e0b]/30 to-transparent animate-pulse" style={{animationDelay: '0.8s'}}></div>
+                    {/* Creative Animated Connection Lines with Enhanced Effects */}
+                    <div className="absolute top-20 left-1/4 w-12 h-px bg-gradient-to-r from-transparent via-[#3b82f6] to-transparent transform rotate-45 animate-pulse shadow-lg shadow-[#3b82f6]/30" style={{animationDelay: '0.2s'}}></div>
+                    <div className="absolute top-24 right-1/3 w-10 h-px bg-gradient-to-r from-transparent via-[#8b5cf6] to-transparent transform -rotate-45 animate-pulse shadow-lg shadow-[#8b5cf6]/30" style={{animationDelay: '0.5s'}}></div>
+                    <div className="absolute top-32 left-1/2 w-14 h-px bg-gradient-to-r from-transparent via-[#f59e0b] to-transparent animate-pulse shadow-lg shadow-[#f59e0b]/30" style={{animationDelay: '0.8s'}}></div>
                     
-                    {/* Rotating Geometric Shapes */}
-                    <div className="absolute top-1/4 left-6 w-4 h-4 border border-[#3b82f6]/20 rounded-full animate-spin" style={{animationDuration: '8s'}}></div>
-                    <div className="absolute top-1/3 right-6 w-3 h-3 border border-[#8b5cf6]/20 rounded-full animate-spin" style={{animationDuration: '6s', animationDirection: 'reverse'}}></div>
-                    <div className="absolute bottom-1/4 left-1/4 w-3 h-3 border border-[#f59e0b]/20 rounded-full animate-spin" style={{animationDuration: '10s'}}></div>
+                    {/* Creative Rotating Geometric Shapes with Enhanced Effects */}
+                    <div className="absolute top-1/4 left-6 w-5 h-5 border-2 border-[#3b82f6] rounded-full animate-spin shadow-lg shadow-[#3b82f6]/30" style={{animationDuration: '8s'}}>
+                      <div className="absolute inset-0 bg-gradient-to-br from-[#3b82f6]/20 to-transparent rounded-full"></div>
+                    </div>
+                    <div className="absolute top-1/3 right-6 w-4 h-4 border-2 border-[#8b5cf6] rounded-full animate-spin shadow-lg shadow-[#8b5cf6]/30" style={{animationDuration: '6s', animationDirection: 'reverse'}}>
+                      <div className="absolute inset-0 bg-gradient-to-br from-[#8b5cf6]/20 to-transparent rounded-full"></div>
+                    </div>
+                    <div className="absolute bottom-1/4 left-1/4 w-4 h-4 border-2 border-[#f59e0b] rounded-full animate-spin shadow-lg shadow-[#f59e0b]/30" style={{animationDuration: '10s'}}>
+                      <div className="absolute inset-0 bg-gradient-to-br from-[#f59e0b]/20 to-transparent rounded-full"></div>
+                    </div>
                     
-                    {/* Pulsing Rings */}
-                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-40 h-40 border border-[#3b82f6]/10 rounded-full animate-ping" style={{animationDuration: '3s'}}></div>
-                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-48 border border-[#8b5cf6]/8 rounded-full animate-ping" style={{animationDuration: '4s', animationDelay: '1s'}}></div>
-                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-56 h-56 border border-[#f59e0b]/6 rounded-full animate-ping" style={{animationDuration: '5s', animationDelay: '2s'}}></div>
+                    {/* Creative Pulsing Rings with Enhanced Effects */}
+                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-40 h-40 border-2 border-[#3b82f6]/20 rounded-full animate-ping shadow-lg shadow-[#3b82f6]/20" style={{animationDuration: '3s'}}></div>
+                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-48 border-2 border-[#8b5cf6]/15 rounded-full animate-ping shadow-lg shadow-[#8b5cf6]/15" style={{animationDuration: '4s', animationDelay: '1s'}}></div>
+                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-56 h-56 border-2 border-[#f59e0b]/10 rounded-full animate-ping shadow-lg shadow-[#f59e0b]/10" style={{animationDuration: '5s', animationDelay: '2s'}}></div>
+                    
+                    {/* Creative Orbiting Elements */}
+                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 border border-[#3b82f6]/15 rounded-full animate-spin" style={{animationDuration: '20s'}}></div>
+                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 border border-[#8b5cf6]/10 rounded-full animate-spin" style={{animationDuration: '25s', animationDirection: 'reverse'}}></div>
+                    
+                    {/* Creative Data Flow Streams */}
+                    <div className="absolute top-1/4 left-0 w-6 h-px bg-gradient-to-r from-[#3b82f6] to-transparent transform rotate-45 animate-pulse" style={{animationDelay: '0.1s'}}></div>
+                    <div className="absolute top-1/3 right-0 w-6 h-px bg-gradient-to-l from-[#8b5cf6] to-transparent transform -rotate-45 animate-pulse" style={{animationDelay: '0.4s'}}></div>
+                    <div className="absolute bottom-1/3 left-0 w-6 h-px bg-gradient-to-r from-[#f59e0b] to-transparent transform rotate-45 animate-pulse" style={{animationDelay: '0.7s'}}></div>
+                    <div className="absolute bottom-1/4 right-0 w-6 h-px bg-gradient-to-l from-[#10b981] to-transparent transform -rotate-45 animate-pulse" style={{animationDelay: '1s'}}></div>
+                    
+                    {/* Creative Floating Icons */}
+                    <div className="absolute top-8 left-1/4 w-3 h-3 bg-gradient-to-br from-[#3b82f6] to-[#8b5cf6] rounded-full animate-bounce shadow-lg shadow-[#3b82f6]/50">
+                      <div className="absolute inset-0 bg-white/20 rounded-full animate-ping"></div>
+                    </div>
+                    <div className="absolute bottom-8 right-1/4 w-3 h-3 bg-gradient-to-br from-[#8b5cf6] to-[#f59e0b] rounded-full animate-bounce shadow-lg shadow-[#8b5cf6]/50">
+                      <div className="absolute inset-0 bg-white/20 rounded-full animate-ping"></div>
+                    </div>
+                    
+                    {/* Creative Corner Accents */}
+                    <div className="absolute top-4 left-4 w-2 h-2 bg-[#3b82f6] rounded-full animate-pulse" style={{animationDelay: '0.2s'}}></div>
+                    <div className="absolute top-4 right-4 w-2 h-2 bg-[#8b5cf6] rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
+                    <div className="absolute bottom-4 left-4 w-2 h-2 bg-[#f59e0b] rounded-full animate-pulse" style={{animationDelay: '0.8s'}}></div>
+                    <div className="absolute bottom-4 right-4 w-2 h-2 bg-[#10b981] rounded-full animate-pulse" style={{animationDelay: '1.1s'}}></div>
+                    
+                    {/* Creative Energy Waves */}
+                    <div className="absolute top-1/2 left-0 w-8 h-px bg-gradient-to-r from-[#3b82f6] via-[#8b5cf6] to-transparent transform -translate-y-1/2 animate-pulse" style={{animationDelay: '0.3s'}}></div>
+                    <div className="absolute top-1/2 right-0 w-8 h-px bg-gradient-to-l from-[#f59e0b] via-[#10b981] to-transparent transform -translate-y-1/2 animate-pulse" style={{animationDelay: '0.7s'}}></div>
+                    <div className="absolute top-0 left-1/2 w-px h-8 bg-gradient-to-b from-[#3b82f6] via-[#8b5cf6] to-transparent transform -translate-x-1/2 animate-pulse" style={{animationDelay: '0.1s'}}></div>
+                    <div className="absolute bottom-0 left-1/2 w-px h-8 bg-gradient-to-t from-[#f59e0b] via-[#10b981] to-transparent transform -translate-x-1/2 animate-pulse" style={{animationDelay: '0.9s'}}></div>
+                    
+                    {/* Creative Spiral Elements */}
+                    <div className="absolute top-1/4 left-1/4 w-6 h-6 border border-[#3b82f6]/30 rounded-full animate-spin" style={{animationDuration: '12s'}}>
+                      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-1 h-1 bg-[#3b82f6] rounded-full"></div>
+                    </div>
+                    <div className="absolute bottom-1/4 right-1/4 w-6 h-6 border border-[#8b5cf6]/30 rounded-full animate-spin" style={{animationDuration: '15s', animationDirection: 'reverse'}}>
+                      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-1 h-1 bg-[#8b5cf6] rounded-full"></div>
+                    </div>
+                    
+                    {/* Creative Pulse Centers */}
+                    <div className="absolute top-1/3 left-1/3 w-3 h-3 bg-gradient-to-br from-[#f59e0b] to-[#10b981] rounded-full animate-ping shadow-lg shadow-[#f59e0b]/50">
+                      <div className="absolute inset-0 bg-white/40 rounded-full"></div>
+                    </div>
+                    <div className="absolute bottom-1/3 right-1/3 w-3 h-3 bg-gradient-to-br from-[#10b981] to-[#3b82f6] rounded-full animate-ping shadow-lg shadow-[#10b981]/50" style={{animationDelay: '0.5s'}}>
+                      <div className="absolute inset-0 bg-white/40 rounded-full"></div>
+                    </div>
+                    
+                    {/* Creative Floating Triangles */}
+                    <div className="absolute top-12 left-12 w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-b-[10px] border-b-[#3b82f6] animate-bounce" style={{animationDelay: '0.2s'}}></div>
+                    <div className="absolute bottom-12 right-12 w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-t-[10px] border-t-[#8b5cf6] animate-bounce" style={{animationDelay: '0.6s'}}></div>
+                    
+                    {/* Creative Hexagon Elements */}
+                    <div className="absolute top-1/2 left-8 w-4 h-4 bg-gradient-to-br from-[#f59e0b] to-[#10b981] transform rotate-45 animate-pulse" style={{animationDelay: '0.4s'}}>
+                      <div className="absolute inset-0 bg-white/20 transform rotate-45"></div>
+                    </div>
+                    <div className="absolute top-1/2 right-8 w-4 h-4 bg-gradient-to-br from-[#10b981] to-[#3b82f6] transform rotate-45 animate-pulse" style={{animationDelay: '0.8s'}}>
+                      <div className="absolute inset-0 bg-white/20 transform rotate-45"></div>
+                    </div>
+                    
+                                      {/* Creative Starburst Effects */}
+                  <div className="absolute top-1/4 right-1/4 w-2 h-2 bg-[#3b82f6] rounded-full animate-ping" style={{animationDelay: '0.1s'}}>
+                    <div className="absolute inset-0 w-4 h-4 border border-[#3b82f6]/20 rounded-full"></div>
                   </div>
+                  <div className="absolute bottom-1/4 left-1/4 w-2 h-2 bg-[#8b5cf6] rounded-full animate-ping" style={{animationDelay: '0.6s'}}>
+                    <div className="absolute inset-0 w-4 h-4 border border-[#8b5cf6]/20 rounded-full"></div>
+                  </div>
+                  
+                  {/* Creative Floating Orbs */}
+                  <div className="absolute top-1/6 left-1/6 w-3 h-3 bg-gradient-to-br from-[#3b82f6] to-[#8b5cf6] rounded-full animate-bounce shadow-lg shadow-[#3b82f6]/50" style={{animationDelay: '0.2s'}}>
+                    <div className="absolute inset-0 bg-white/20 rounded-full animate-ping"></div>
+                  </div>
+                  <div className="absolute bottom-1/6 right-1/6 w-3 h-3 bg-gradient-to-br from-[#f59e0b] to-[#10b981] rounded-full animate-bounce shadow-lg shadow-[#f59e0b]/50" style={{animationDelay: '0.7s'}}>
+                    <div className="absolute inset-0 bg-white/20 rounded-full animate-ping"></div>
+                  </div>
+                  
+                  {/* Creative Energy Sparks */}
+                  <div className="absolute top-1/3 left-0 w-2 h-2 bg-[#3b82f6] rounded-full animate-ping" style={{animationDelay: '0.3s'}}>
+                    <div className="absolute inset-0 w-3 h-3 border border-[#3b82f6]/30 rounded-full"></div>
+                  </div>
+                  <div className="absolute bottom-1/3 right-0 w-2 h-2 bg-[#8b5cf6] rounded-full animate-ping" style={{animationDelay: '0.8s'}}>
+                    <div className="absolute inset-0 w-3 h-3 border border-[#8b5cf6]/30 rounded-full"></div>
+                  </div>
+                  
+                  {/* Creative Floating Diamonds */}
+                  <div className="absolute top-1/2 left-4 w-2 h-2 bg-gradient-to-br from-[#f59e0b] to-[#10b981] transform rotate-45 animate-pulse" style={{animationDelay: '0.4s'}}>
+                    <div className="absolute inset-0 bg-white/20 transform rotate-45"></div>
+                  </div>
+                  <div className="absolute top-1/2 right-4 w-2 h-2 bg-gradient-to-br from-[#10b981] to-[#3b82f6] transform rotate-45 animate-pulse" style={{animationDelay: '0.9s'}}>
+                    <div className="absolute inset-0 bg-white/20 transform rotate-45"></div>
+                  </div>
+                </div>
                   
                   {/* Team Flow Visualization */}
                   <div className="relative z-10 h-full flex flex-col justify-center">
@@ -1420,6 +1532,8 @@ export default function Home() {
                             {/* Creative Orbiting Elements */}
                             <div className="absolute inset-0 w-5 h-5 border border-[#3b82f6]/20 rounded-full animate-spin" style={{animationDuration: '3s'}}></div>
                             <div className="absolute inset-0 w-7 h-7 border border-[#3b82f6]/10 rounded-full animate-spin" style={{animationDuration: '5s', animationDirection: 'reverse'}}></div>
+                            {/* Creative Pulse Rings */}
+                            <div className="absolute inset-0 w-9 h-9 border border-[#3b82f6]/5 rounded-full animate-ping" style={{animationDuration: '2s'}}></div>
                           </div>
                           <span className="text-xs font-light text-[#1e3a8a]/70 group-hover:text-[#3b82f6] transition-colors duration-300">Strategy</span>
                         </div>
@@ -1431,6 +1545,8 @@ export default function Home() {
                             {/* Creative Orbiting Elements */}
                             <div className="absolute inset-0 w-5 h-5 border border-[#1e3a8a]/20 rounded-full animate-spin" style={{animationDuration: '4s'}}></div>
                             <div className="absolute inset-0 w-7 h-7 border border-[#1e3a8a]/10 rounded-full animate-spin" style={{animationDuration: '6s', animationDirection: 'reverse'}}></div>
+                            {/* Creative Pulse Rings */}
+                            <div className="absolute inset-0 w-9 h-9 border border-[#1e3a8a]/5 rounded-full animate-ping" style={{animationDuration: '2.5s'}}></div>
                           </div>
                           <span className="text-xs font-light text-[#1e3a8a]/70 group-hover:text-[#1e3a8a] transition-colors duration-300">Design</span>
                         </div>
@@ -1442,6 +1558,8 @@ export default function Home() {
                             {/* Creative Orbiting Elements */}
                             <div className="absolute inset-0 w-5 h-5 border border-[#8b5cf6]/20 rounded-full animate-spin" style={{animationDuration: '3.5s'}}></div>
                             <div className="absolute inset-0 w-7 h-7 border border-[#8b5cf6]/10 rounded-full animate-spin" style={{animationDuration: '5.5s', animationDirection: 'reverse'}}></div>
+                            {/* Creative Pulse Rings */}
+                            <div className="absolute inset-0 w-9 h-9 border border-[#8b5cf6]/5 rounded-full animate-ping" style={{animationDuration: '3s'}}></div>
                           </div>
                           <span className="text-xs font-light text-[#1e3a8a]/70 group-hover:text-[#8b5cf6] transition-colors duration-300">Build</span>
                         </div>
@@ -1453,6 +1571,8 @@ export default function Home() {
                             {/* Creative Orbiting Elements */}
                             <div className="absolute inset-0 w-5 h-5 border border-[#f59e0b]/20 rounded-full animate-spin" style={{animationDuration: '4.5s'}}></div>
                             <div className="absolute inset-0 w-7 h-7 border border-[#f59e0b]/10 rounded-full animate-spin" style={{animationDuration: '6.5s', animationDirection: 'reverse'}}></div>
+                            {/* Creative Pulse Rings */}
+                            <div className="absolute inset-0 w-9 h-9 border border-[#f59e0b]/5 rounded-full animate-ping" style={{animationDuration: '3.5s'}}></div>
                           </div>
                           <span className="text-xs font-light text-[#1e3a8a]/70 group-hover:text-[#f59e0b] transition-colors duration-300">Launch</span>
                         </div>
@@ -1481,6 +1601,24 @@ export default function Home() {
                   <div className="absolute bottom-1/4 right-8 w-1.5 h-1.5 bg-[#f59e0b] rounded-full animate-pulse" style={{animationDelay: '1s'}}>
                     <div className="absolute inset-0 w-3 h-3 border border-[#f59e0b]/20 rounded-full animate-ping"></div>
                   </div>
+                  
+                  {/* Creative Floating Stars */}
+                  <div className="absolute top-1/6 right-1/6 w-2 h-2 bg-gradient-to-br from-[#3b82f6] to-[#8b5cf6] transform rotate-45 animate-pulse" style={{animationDelay: '0.4s'}}>
+                    <div className="absolute inset-0 bg-white/20 transform rotate-45"></div>
+                  </div>
+                  <div className="absolute bottom-1/6 left-1/6 w-2 h-2 bg-gradient-to-br from-[#f59e0b] to-[#10b981] transform rotate-45 animate-pulse" style={{animationDelay: '0.9s'}}>
+                    <div className="absolute inset-0 bg-white/20 transform rotate-45"></div>
+                  </div>
+                  
+                  {/* Creative Energy Lines */}
+                  <div className="absolute top-1/3 left-0 w-4 h-px bg-gradient-to-r from-[#3b82f6] to-transparent transform rotate-45 animate-pulse" style={{animationDelay: '0.2s'}}></div>
+                  <div className="absolute bottom-1/3 right-0 w-4 h-px bg-gradient-to-l from-[#8b5cf6] to-transparent transform -rotate-45 animate-pulse" style={{animationDelay: '0.7s'}}></div>
+                  
+                  {/* Creative Corner Glows */}
+                  <div className="absolute top-2 left-2 w-1 h-1 bg-[#3b82f6] rounded-full animate-pulse" style={{animationDelay: '0.1s'}}></div>
+                  <div className="absolute top-2 right-2 w-1 h-1 bg-[#8b5cf6] rounded-full animate-pulse" style={{animationDelay: '0.6s'}}></div>
+                  <div className="absolute bottom-2 left-2 w-1 h-1 bg-[#f59e0b] rounded-full animate-pulse" style={{animationDelay: '0.3s'}}></div>
+                  <div className="absolute bottom-2 right-2 w-1 h-1 bg-[#10b981] rounded-full animate-pulse" style={{animationDelay: '0.8s'}}></div>
                   
                   {/* Creative Data Flow Lines */}
                   <div className="absolute top-1/3 left-0 w-8 h-px bg-gradient-to-r from-[#3b82f6]/30 to-transparent transform rotate-45 animate-pulse" style={{animationDelay: '0.4s'}}></div>
